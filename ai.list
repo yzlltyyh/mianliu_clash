@@ -5,5 +5,5 @@ DOMAIN-KEYWORD,copilot
 DOMAIN-KEYWORD,bard
 DOMAIN-KEYWORD,zipzap
 DOMAIN-KEYWORD,firefly
-DOMIN-KEYWORD,oaiusercontent
-DOMIN-KEYWORD,oaistatic
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
