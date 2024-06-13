@@ -1,9 +1,11 @@
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/666a9af6981b6c56477ca478/1i086qln4';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
+(function(d, s, id, w) {
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+    if (d.getElementById(id)) return;
+    var js, sjs = d.getElementsByTagName(s)[0];
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://embed.tawk.to/666a9af6981b6c56477ca478/1i086qln4';
+    js.async = true;
+    js.charset = 'UTF-8';
+    js.setAttribute('crossorigin', '*');
+    sjs.parentNode.insertBefore(js, sjs);
+}(document, 'script', 'tawk-chat', window));
