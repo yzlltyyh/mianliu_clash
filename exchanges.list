@@ -1,0 +1,100 @@
+# Binance
+DOMAIN-SUFFIX,binance.com
+DOMAIN-SUFFIX,binance.vision
+DOMAIN-SUFFIX,binance.info
+DOMAIN-SUFFIX,binance.me
+DOMAIN-SUFFIX,binanceapi.com
+DOMAIN-SUFFIX,bnbstatic.com
+DOMAIN-SUFFIX,bsappapi.com
+DOMAIN-SUFFIX,bsappapi.cc
+DOMAIN-SUFFIX,bscdnweb.com
+DOMAIN-SUFFIX,bnappweb.black
+DOMAIN-SUFFIX,bntrace.com
+
+# OKX
+DOMAIN-SUFFIX,okx.com
+DOMAIN-SUFFIX,okex.com
+DOMAIN-SUFFIX,okx.ac
+DOMAIN-SUFFIX,okx.cab
+DOMAIN,static.okx.reise
+DOMAIN-SUFFIX,okx-dns.com
+DOMAIN-SUFFIX,okx-dns1.com
+DOMAIN-SUFFIX,okx-dns2.com
+
+# Bybit
+DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,bytick.com
+DOMAIN-SUFFIX,bybitglobal.com
+DOMAIN-SUFFIX,bybit-global.com
+DOMAIN-SUFFIX,byapis.com
+DOMAIN-SUFFIX,bycsi.com
+DOMAIN-SUFFIX,bycbe.com
+DOMAIN-SUFFIX,byapps.net
+DOMAIN-SUFFIX,bybit.cloud
+DOMAIN-SUFFIX,bybdc6.com
+DOMAIN-SUFFIX,bymj.io
+DOMAIN-SUFFIX,byabcde.com
+DOMAIN-SUFFIX,byd3c3.com
+DOMAIN-SUFFIX,bybit.biz
+
+# Bitget
+DOMAIN-SUFFIX,bitget.com
+DOMAIN-SUFFIX,bitget.site
+DOMAIN-SUFFIX,bitgetapp.com
+DOMAIN-SUFFIX,bitgetapps.com
+
+# MEXC
+DOMAIN-SUFFIX,mexc.com
+
+# KuCoin
+DOMAIN-SUFFIX,kucoin.com
+DOMAIN-SUFFIX,kucoin.plus
+
+# Gate
+DOMAIN-SUFFIX,gate.com
+DOMAIN-SUFFIX,gate.io
+DOMAIN-SUFFIX,gateio.ws
+DOMAIN-SUFFIX,gateapi.io
+DOMAIN-SUFFIX,gatedata.org
+DOMAIN-SUFFIX,gateimg.com
+DOMAIN-SUFFIX,gateio.live
+DOMAIN-SUFFIX,gateio.services
+
+# BingX
+DOMAIN-SUFFIX,bingx.com
+
+# HTX
+DOMAIN-SUFFIX,htx.com
+DOMAIN-SUFFIX,huobi.pro
+DOMAIN-SUFFIX,hbdm.com
+DOMAIN,api.hbdm.vn
+DOMAIN-SUFFIX,hbfile.net
+
+# Bitfinex
+DOMAIN-SUFFIX,bitfinex.com
+
+# Deribit
+DOMAIN-SUFFIX,deribit.com
+
+# Phemex
+DOMAIN-SUFFIX,phemex.com
+
+# CoinEx
+DOMAIN-SUFFIX,coinex.com
+
+# LBank
+DOMAIN-SUFFIX,lbank.com
+DOMAIN-SUFFIX,lbkex.com
+DOMAIN,liequan.lbktech.com
+
+# Bitunix
+DOMAIN-SUFFIX,bitunix.com
+DOMAIN,bitunix-public.oss-ap-northeast-1.aliyuncs.com
+
+# dYdX
+DOMAIN-SUFFIX,dydx.trade
+DOMAIN-SUFFIX,dydx.exchange
+
+# Hyperliquid
+DOMAIN,app.hyperliquid.xyz
+DOMAIN,api.hyperliquid.xyz
