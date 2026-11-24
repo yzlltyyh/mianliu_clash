@@ -14,12 +14,23 @@ DOMAIN,production-openaicom-storage.azureedge.net
 DOMAIN,openaiapi-site.azureedge.net
 DOMAIN,openaicom.imgix.net
 DOMAIN-SUFFIX,openai.azure.com
+# ChatGPT 与 Codex 使用的功能实验、错误报告、浏览器性能监测
+# https://help.openai.com/en/articles/9247338
+# https://github.com/openai/codex/blob/main/codex-rs/feedback/src/lib.rs
+DOMAIN-SUFFIX,oaistatsig.com
+DOMAIN,o207216.ingest.sentry.io
+DOMAIN,o33249.ingest.sentry.io
+DOMAIN,o33249.ingest.us.sentry.io
+DOMAIN,rum.browser-intake-datadoghq.com
+DOMAIN,cdn.openaimerge.com
 
 # Anthropic、Claude
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claudeusercontent.com
+# Anthropic 托管的 Google Cloud API 入口
+DOMAIN,claude.googleapis.com
 
 # Gemini、AI Studio、Vertex AI、NotebookLM、Google Labs
 DOMAIN-SUFFIX,gemini.google.com
@@ -42,6 +53,16 @@ DOMAIN,cloudaicompanion.googleapis.com
 DOMAIN,aisandbox-pa.googleapis.com
 DOMAIN,notebooklm-pa.googleapis.com
 DOMAIN,labs.google
+# Antigravity，cloudcode-pa.googleapis.com 同时承载官方客户端遥测
+# https://antigravity.google/docs/enterprise
+DOMAIN-SUFFIX,antigravity.google
+DOMAIN,businessaicode.googleapis.com
+DOMAIN,businessaicode.mtls.googleapis.com
+DOMAIN,businessaicode.us.rep.googleapis.com
+DOMAIN,businessaicode.eu.rep.googleapis.com
+DOMAIN,aiplatform.us.rep.googleapis.com
+DOMAIN,aiplatform.eu.rep.googleapis.com
+DOMAIN,aiplatform.mtls.googleapis.com
 
 # Bing、Microsoft Copilot、GitHub Copilot
 DOMAIN-SUFFIX,bing.com
@@ -55,10 +76,25 @@ DOMAIN,gateway.bingviz.microsoftapp.net
 DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN,copilot-proxy.githubusercontent.com
 DOMAIN,origin-tracker.githubusercontent.com
+# Copilot 客户端遥测、实验、用量报告和实时事件
+# https://docs.github.com/en/copilot/reference/copilot-allowlist-reference
+DOMAIN,copilot-telemetry.githubusercontent.com
+DOMAIN,collector.github.com
+DOMAIN,default.exp-tas.com
+DOMAIN,copilot-reports.github.com
+DOMAIN,production-copilot-host-austriaeast.webpubsub.azure.com
+DOMAIN,production-copilot-host-centralus-02.webpubsub.azure.com
+DOMAIN,production-copilot-host-centralus.webpubsub.azure.com
+DOMAIN,production-copilot-host-eastasia.webpubsub.azure.com
+DOMAIN,production-copilot-host-westus.webpubsub.azure.com
+DOMAIN,production-copilot-host-westus3.webpubsub.azure.com
+DOMAIN,production-copilot-host.webpubsub.azure.com
 
 # Grok、Perplexity、Poe、Cursor、OpenRouter
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,x.ai
+# Grok 网页的 Sentry 项目，站内 /monitoring 也由 grok.com 规则覆盖
+DOMAIN,o4508179396558848.ingest.us.sentry.io
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,pplx.ai
 DOMAIN-SUFFIX,poe.com
@@ -66,6 +102,8 @@ DOMAIN-SUFFIX,poecdn.net
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursorapi.com
+DOMAIN-SUFFIX,cursor-cdn.com
+DOMAIN-SUFFIX,cursorvm.com
 DOMAIN-SUFFIX,openrouter.ai
 
 # 国内 AI 服务与 API
@@ -87,6 +125,11 @@ DOMAIN-SUFFIX,coze.cn
 DOMAIN-SUFFIX,qwen.ai
 DOMAIN,dashscope.aliyuncs.com
 DOMAIN,dashscope-intl.aliyuncs.com
+# DeepSeek 网页的数据上报与 A/B 实验，Kimi 网页的性能与错误上报
+# 火山引擎的这三个接收域名也服务其他应用
+DOMAIN,gator.volces.com
+DOMAIN,tab.volces.com
+DOMAIN,apmplus.volces.com
 
 # 图像、翻译与独立服务
 DOMAIN,firefly.adobe.com
